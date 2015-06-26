@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{EDCC344D-ED9C-4351-8680-27FD48119D17}"
+	ProjectSection(SolutionItems) = preProject
+		ExampleMaze.txt = ExampleMaze.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excelian.Maze", "Excelian.Maze\Excelian.Maze.csproj", "{026D1B35-A41B-4872-85A2-4FA3A6847074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{06791185-6781-4DB5-9914-45B2A01884D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D416A59F-E696-4C29-9722-72F2099C8407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze", "Maze\Maze.csproj", "{C31ACF56-0273-4D11-91F9-86210629ACDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9A82DA85-AE4E-4353-B1B2-7DF7E34B1035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Domain", "Maze.Domain\Maze.Domain.csproj", "{30DDAEA9-7509-4F5F-A92F-CFB264E78578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Explorer", "Maze.Explorer\Maze.Explorer.csproj", "{85DF1582-9B13-4BC5-B299-C8295DF45DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Tests", "Maze.Tests\Maze.Tests.csproj", "{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026D1B35-A41B-4872-85A2-4FA3A6847074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026D1B35-A41B-4872-85A2-4FA3A6847074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026D1B35-A41B-4872-85A2-4FA3A6847074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026D1B35-A41B-4872-85A2-4FA3A6847074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31ACF56-0273-4D11-91F9-86210629ACDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31ACF56-0273-4D11-91F9-86210629ACDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31ACF56-0273-4D11-91F9-86210629ACDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31ACF56-0273-4D11-91F9-86210629ACDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DDAEA9-7509-4F5F-A92F-CFB264E78578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DDAEA9-7509-4F5F-A92F-CFB264E78578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DDAEA9-7509-4F5F-A92F-CFB264E78578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DDAEA9-7509-4F5F-A92F-CFB264E78578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DF1582-9B13-4BC5-B299-C8295DF45DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DF1582-9B13-4BC5-B299-C8295DF45DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DF1582-9B13-4BC5-B299-C8295DF45DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DF1582-9B13-4BC5-B299-C8295DF45DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C31ACF56-0273-4D11-91F9-86210629ACDF} = {D416A59F-E696-4C29-9722-72F2099C8407}
+		{30DDAEA9-7509-4F5F-A92F-CFB264E78578} = {9A82DA85-AE4E-4353-B1B2-7DF7E34B1035}
+		{85DF1582-9B13-4BC5-B299-C8295DF45DA6} = {D416A59F-E696-4C29-9722-72F2099C8407}
+		{36FA2FD8-4FFC-4F13-BF9E-41C26F7AC27A} = {06791185-6781-4DB5-9914-45B2A01884D7}
+	EndGlobalSection
+EndGlobal
